@@ -5,9 +5,39 @@ body {
     font-family: Verdana, Verdana, sans-serif;
     padding: 20px;
     text-align: center;
-    color: rgb(194, 162, 22);
-    background-color: black;
+    color: rgb(127, 56, 33);
+    background-color: rgb(186, 120, 55);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px 3px 3px 3px;
+    outline: 3px solid black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 3px;
 }
+.menu-bar {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 5px;
+}
+.li-menu {
+    float: left;
+}
+.ul-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(127, 56, 33);
+}
+li a {
+    display: block;
+    color: rgb(186, 120, 55);
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Verdana, Verdana, sans-serif;
+    text-decoration: none;
+  }
 .supercontainer {
     font-family: Verdana, Verdana, sans-serif;
     display: flex;
@@ -43,7 +73,7 @@ body {
 .outer-list-item {
     border-style: solid;
     border-width: 3px;
-    background-color: rgb(194, 162, 22);
+    background-color: rgb(127, 56, 33);
     text-align: center;
     padding: 20px;
     max-width: 255px;
@@ -54,6 +84,59 @@ p.one {
     border-width: 3px 3px 3px 3px;
     border-radius: 5px;
     padding-left: 3px;
+    padding-block-end: 5px;
+    line-height: 1.7;
+    background-color: rgb(186, 120, 55);
+}
+p.two {
+    font-family: Verdana, Verdana, sans-serif;
+    padding-left: 3px;
+    padding-block-end: 35px;
+    line-height: 1.7;
+    background-color: rgb(186, 120, 55);
+}
+.about-header {
+    font-family: Verdana, Verdana, sans-serif;
+    padding: 20px;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+.image-border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(127, 56, 33);
+}
+.button {
+    background-color: rgb(127, 56, 33);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.suggestions-text {
+    font-family: Verdana, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.form-label {
+    font-family: Verdana, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.form-container {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 5px;
+    padding-left: 3px;
     padding-block-end:35px;
     line-height: 1.7;
+    background-color: rgb(186, 120, 55);
 }

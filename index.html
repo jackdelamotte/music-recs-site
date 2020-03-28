@@ -2,12 +2,52 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <title>Jack's Music Recommendations</title>
+        <title>Jack's Album Recommendations</title>
     </head>
     <body>
         <h1 class="header">Jack's Album Recommendations</h1>
             <ul class="ul-none">
+                <div class="menu-bar">
+                    <ul class="ul-menu">
+                        <li class="li-menu"><button onclick="visitHomePage();" class="button"><b>Home</b></button></li>
+                        <li class="li-menu"><button onclick="visitAboutPage();" class="button"><b>About</b></button></li>
+                        <li class="li-menu"><button onclick="visitSuggestionsPage();" class="button"><b>Suggestions</b></button></li>
+                    </ul>
+                </div>
                 <div class="supercontainer">
+
+                    <div class="container">
+                        <div class="item">
+                            <li class="outer-list-item"><b>"Fading Frontier" - Deerhunter</b></li>
+                            <br>
+                            <img src="neverhungoveragain.jpeg" width="300" alt="'Never Hungover Again' - Joyce Manor">
+                        </div>
+                        <div class="item-widened">
+                            <h3>A bit about this album:</h3>
+                            <p class="one">
+                                "Never Hungover Again" is the third studio album of Torrance, California's punk
+                                rock band "Joyce Manor". I discovered Joyce Manor a few years back after seeing
+                                them on a friend's playlist but mostly only listened to their most popular track,
+                                "Constant Headache" (still a great song). Earlier this year I decided to look into
+                                the rest of their discography and was pleasantly surprised. As I listened through
+                                all of their music, I was finding songs I really liked but it wasn't until I got
+                                to this album that I really got hooked. Something really interesting about Joyce 
+                                Manor in general is the fact that their songs are really short, as in two minutes
+                                or less. It definitely makes albums like "Never Hungover Again" catchy, fast-paced,
+                                and fun. I think if I had to describe Joyce Manor's musical genre as a whole I would
+                                say it's like an album about high school musical but from an emo perspective.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>Essential tracks:</h3>
+                                <p>"Christmas Card"</p>
+                                <p>"Falling in Love Again"</p>
+                                <p>"End of the Summer"</p>
+                                <p>"Heated Swimming Pool"</p>
+                        </div>
+                    </div>
+                    <br>
+
                     <div class="container">
                         <div class="item">
                             <li class="outer-list-item"><b>"Appetite" - Walter TV</b></li>
@@ -147,5 +187,6 @@
                 </div>
                 </div>
             </ul>
+    <script src="script.js"></script>
     </body>
 </html>

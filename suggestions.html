@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Jack's Album Recommendations</title>
+    </head>
+
+    <body>
+        <h1 class="header">Jack's Album Recommendations</h1>
+        <ul class="ul-none">
+            <div class="menu-bar">
+                <ul class="ul-menu">
+                    <li class="li-menu"><button onclick="visitHomePage();" class="button"><b>Home</b></button></li>
+                    <li class="li-menu"><button onclick="visitAboutPage();" class="button"><b>About</b></button></li>
+                    <li class="li-menu"><button onclick="visitSuggestionsPage();" class="button"><b>Suggestions</b></button></li>
+                </ul>
+            </div>
+        </ul> 
+        <br> 
+        <div class="form-container">
+            <h2><b class='about-header'>Your Suggestions</b></h2>
+            <p class='suggestions-text'>Now it's your turn, what do YOU think I should be listening to?</p>
+            
+            <form action="MAILTO:jack.delamotte13@gmail.com" method="post" enctype="text/plain">
+            <label class="form-label">Your album/artist/song rec here:</label>
+            <input type="text" name="I think you should listen to: "/>
+
+            </form>
+        </div>
+    <script src="script.js"></script>
+    </body>
+
+</html>
