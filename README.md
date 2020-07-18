@@ -1,9 +1,6 @@
-# jackdelamotte.github.io
 A simple static website to display some music recommendations and practice HTML/CSS!
 
-Paste jackdelamotte.github.io into your browser to see my website! 
-
-I am new to HTML and CSS so I wanted to practice some simple techniques, namely CSS flexbox
-which I found to be really helpful. 
+Although this site is no longer being hosted on the web, it was a really hekpful way for
+me to dive into learning some basic HTML and CSS concepts, especially flexbox!
 
 Thanks for reading and hopefully you enjoy the music recommendations!
